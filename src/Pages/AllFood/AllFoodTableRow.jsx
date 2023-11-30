@@ -9,7 +9,6 @@ const AllFoodTableRow = ({ ghostFood, ghostFoods, setGhostFood }) => {
     const proceed = confirm("Are you sure you want to delete");
     if (proceed) {
       fetch(`https://ghost-food-server.vercel.app/delete/${_id}`, {
-        mode: "no-cors",
         method: "DELETE",
       })
         .then((res) => res.json())

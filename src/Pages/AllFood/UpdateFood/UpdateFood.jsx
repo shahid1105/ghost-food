@@ -19,7 +19,6 @@ const UpdateFood = () => {
     // console.log(updateFood);
 
     fetch(`https://ghost-food-server.vercel.app/update/${_id}`, {
-      mode: "no-cors",
       method: "PUT",
       headers: {
         "content-type": "application/json",

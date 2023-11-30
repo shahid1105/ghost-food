@@ -12,7 +12,6 @@ const AddAFood = () => {
     console.log(data);
 
     fetch("https://ghost-food-server.vercel.app/allFood", {
-      mode: "no-cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
