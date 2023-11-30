@@ -5,7 +5,7 @@ const AllFood = () => {
   const [ghostFoods, setGhostFood] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allFood")
+    fetch("https://ghost-food-server.vercel.app/allFood")
       .then((res) => res.json())
       .then((data) => {
         setGhostFood(data);
@@ -27,7 +27,6 @@ const AllFood = () => {
               <th>Details</th>
               <th>Update</th>
               <th>Delete</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>

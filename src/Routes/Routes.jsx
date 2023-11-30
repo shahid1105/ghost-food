@@ -27,14 +27,14 @@ const router = createBrowserRouter([
         path: "/details/:id",
         element: <Details></Details>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/details/${params.id}`),
+          fetch(`https://ghost-food-server.vercel.app/details/${params.id}`),
       },
 
       {
         path: "/update/:id",
         element: <UpdateFood></UpdateFood>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/updateFood/${params.id}`),
+          fetch(`https://ghost-food-server.vercel.app/updateFood/${params.id}`),
       },
     ],
   },

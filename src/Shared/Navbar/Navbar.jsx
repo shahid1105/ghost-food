@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
         <Link
           to="/"
-          className="btn btn-ghost text-3xl font-extrabold text-emerald-900"
+          className="btn btn-ghost text-2xl md:text-3xl lg:text-3xl font-extrabold text-emerald-900"
         >
           Ghost Food
         </Link>

@@ -18,7 +18,8 @@ const UpdateFood = () => {
   const updateFood = (updateFood) => {
     // console.log(updateFood);
 
-    fetch(`http://localhost:5000/update/${_id}`, {
+    fetch(`https://ghost-food-server.vercel.app/update/${_id}`, {
+      mode: "no-cors",
       method: "PUT",
       headers: {
         "content-type": "application/json",

@@ -8,14 +8,13 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="text-gray-500 ms-6 md:ms-24 lg:ms-24 md:mr-24 lg:mr-24 md:mb-24 lg:mb-24 md:mt-10 lg:mt-10 mb-4 pt-6">
-          Toy cars are miniature replicas of real vehicles, designed for
-          children is play and enjoyment. They are typically made of plastic or
-          die-cast metal and come in various shapes, sizes, and colors. Toy cars
-          often feature details such as moving wheels, opening doors, and
-          realistic designs to enhance the imaginative play experience. Children
-          can create their own races, explore imaginary worlds, and engage in
-          role-playing scenarios with toy cars, fostering creativity, motor
-          skills, and cognitive development.
+          In the realm of gastronomic exploration, ghost food takes center
+          stage, introducing a spectral symphony of flavors that transcend the
+          ordinary. Imagine indulging in the enigmatic Spectral Spaghetti, where
+          each strand carries the essence of the ethereal, weaving a tapestry of
+          taste that captivates the senses. The Phantom Pepper Pizza follows
+          suit, offering a tantalizing dance of mysterious and spicy notes that
+          awaken the palate to the supernatural.
         </p>
         <div className="flex gap-6 ms-24 md:pb-10 lg:pb-10">
           <a>
