@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AllFoodTableRow from "./AllFoodTableRow";
 
 const AllFood = () => {
-  const [ghostFood, setGhostFood] = useState([]);
+  const [ghostFoods, setGhostFood] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:5000/allFood")
@@ -31,10 +31,11 @@ const AllFood = () => {
             </tr>
           </thead>
           <tbody>
-            {ghostFood.map((ghostFood) => (
+            {ghostFoods.map((ghostFood) => (
               <AllFoodTableRow
                 key={ghostFood._id}
                 ghostFood={ghostFood}
+                ghostFoods={ghostFoods}
                 setGhostFood={setGhostFood}
               ></AllFoodTableRow>
             ))}

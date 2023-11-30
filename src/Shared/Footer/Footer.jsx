@@ -1,6 +1,8 @@
+import logo from "../../../public/logo.png";
+
 const Footer = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-10">
       <footer className="footer p-10 bg-base-200 text-base-content">
         <div>
           <span className="footer-title">Services</span>
@@ -25,7 +27,7 @@ const Footer = () => {
       </footer>
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
-          <img className="rounded-full h-12 w-12" src={""} alt="" />
+          <img className="rounded-full h-12 w-12" src={logo} alt="" />
           <p>
             Ghost Food <br />
             Established in 1920 <br />

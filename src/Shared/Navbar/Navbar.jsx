@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../../public/logo.png";
 
 const Navbar = () => {
   const navOption = (
@@ -45,7 +46,10 @@ const Navbar = () => {
             {navOption}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link
+          to="/"
+          className="btn btn-ghost text-3xl font-extrabold text-emerald-900"
+        >
           Ghost Food
         </Link>
       </div>
@@ -53,7 +57,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navOption}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <Link to="/">
+          <img className="h-20 w-20" src={logo} alt="" />
+        </Link>
       </div>
     </div>
   );

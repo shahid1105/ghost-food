@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const AllFoodTableRow = ({ ghostFood, setGhostFood }) => {
+const AllFoodTableRow = ({ ghostFood, ghostFoods, setGhostFood }) => {
   const { _id, name, subCategory, availableQuantity, price, SellerName, img } =
     ghostFood || [];
   // console.log(ghostFood);
@@ -16,7 +16,7 @@ const AllFoodTableRow = ({ ghostFood, setGhostFood }) => {
           console.log(data);
           if (data.deletedCount > 0) {
             alert("Deleted successfully");
-            const remaining = ghostFood.filter(
+            const remaining = ghostFoods.filter(
               (ghostFood) => ghostFood._id !== _id
             );
             setGhostFood(remaining);
