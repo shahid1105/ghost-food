@@ -70,7 +70,6 @@ const AddAFood = () => {
               <span className="label-text">Seller Name</span>
             </label>
             <input
-              //   defaultValue={user?.displayName}
               type="text"
               {...register("SellerName", {
                 required: "Seller Name is required",
