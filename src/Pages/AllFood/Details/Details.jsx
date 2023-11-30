@@ -37,7 +37,7 @@ const Details = () => {
 
           <div className="card w-full bg-base-100 shadow-xl">
             <figure>
-              <img className="pt-12" src={img} alt="food" />
+              <img className="pt-12 h-64 w-48" src={img} alt="food" />
             </figure>
             <div className="card-body">
               <h2 className="card-title items-center text-4xl font-bold">

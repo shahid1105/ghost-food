@@ -25,6 +25,8 @@ const AllFood = () => {
               <th>Price</th>
               <th>AvailableQuantity</th>
               <th>Details</th>
+              <th>Update</th>
+              <th>Delete</th>
               <th></th>
             </tr>
           </thead>
@@ -33,6 +35,7 @@ const AllFood = () => {
               <AllFoodTableRow
                 key={ghostFood._id}
                 ghostFood={ghostFood}
+                setGhostFood={setGhostFood}
               ></AllFoodTableRow>
             ))}
           </tbody>
