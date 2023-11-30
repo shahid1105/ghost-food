@@ -11,4 +11,4 @@ Currently, two official plugins are available:
 
 ### Live Site Link
 
-Hosted in Firebase -> [Sports Talent Academy](https://ghost-food-99c31.web.app/)
+Hosted in Firebase -> [Ghost Food](https://ghost-food-99c31.web.app/)
